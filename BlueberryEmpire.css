@@ -1,0 +1,29 @@
+body {
+	background-color:DarkBlue;
+	color:White;
+	font-family:Highbush;
+	margin:10%;
+	text-align:center;
+}
+
+a {
+	color:White;
+	font-size:200%;
+}	
+
+h1 {
+	font-size:500%;
+}
+
+p {
+	font-size:200%
+}
+
+@font-face {
+	font-family: "Highbush";
+	src: url("Fonts/Highbush.ttf");
+}
+
+.game-image-title {
+	width: 50%;
+}
