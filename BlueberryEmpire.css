@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "Highbush";
+	src: url("Fonts/Highbush.ttf");
+}
+
 body {
 	background-color:DarkBlue;
 	color:White;
@@ -11,19 +16,21 @@ a {
 	font-size:200%;
 }	
 
-.heading {
-	font-size:500%;
-}
-
 p {
 	font-size:200%
 }
 
-@font-face {
-	font-family: "Highbush";
-	src: url("Fonts/Highbush.ttf");
+.game-image-title {
+	margin: 16px;
+	width: 50%;
 }
 
-.game-image-title {
+.game-image-title-invert {
+	margin: 16px;
 	width: 50%;
+	filter: invert(100%)
+}
+
+.heading {
+	font-size:500%;
 }
