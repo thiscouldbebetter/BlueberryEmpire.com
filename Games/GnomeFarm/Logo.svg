@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="8.4358473in"
-   height="3.7589483in"
+   width="759.22632"
+   height="338.30536"
    id="svg2"
    sodipodi:version="0.32"
    inkscape:version="0.91 r"
-   sodipodi:docname="GnomeFarm-Logo.svg"
+   sodipodi:docname="Logo.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.1">
   <defs
@@ -44,19 +44,19 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.16"
-     inkscape:cx="1269.9"
-     inkscape:cy="-635.27366"
+     inkscape:zoom="0.76776978"
+     inkscape:cx="458.61136"
+     inkscape:cy="99.491947"
      inkscape:document-units="px"
      inkscape:current-layer="GnomeFarmLogo"
      showgrid="false"
      showborder="true"
-     inkscape:window-width="1162"
-     inkscape:window-height="675"
-     inkscape:window-x="110"
-     inkscape:window-y="110"
-     inkscape:window-maximized="0"
-     units="in"
+     inkscape:window-width="1600"
+     inkscape:window-height="848"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     units="px"
      height="6in"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -68,7 +68,7 @@
        visible="true"
        enabled="true"
        originx="-93.979409"
-       originy="-74.671878" />
+       originy="-74.671888" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -93,13 +93,6 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        inkscape:label="#g3668">
-      <rect
-         y="1411.2753"
-         x="31.39686"
-         height="600"
-         width="800"
-         id="rect2880"
-         style="fill:none" />
       <g
          transform="matrix(0.52048814,0,0,0.52048814,-634.20591,810.48368)"
          id="g2882">

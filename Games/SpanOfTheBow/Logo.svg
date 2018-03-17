@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="8.4488745in"
-   height="1.5393497in"
+   width="760.39868"
+   height="138.54147"
    id="svg2"
    sodipodi:version="0.32"
    inkscape:version="0.91 r"
-   sodipodi:docname="SpanOfTheBow-Logo.svg"
+   sodipodi:docname="Logo.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.1">
   <defs
@@ -57,15 +57,15 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1144"
+     inkscape:window-width="1600"
      inkscape:window-height="848"
-     inkscape:window-x="454"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      showguides="true"
      inkscape:guide-bbox="true"
      showborder="true"
-     inkscape:window-maximized="0"
-     units="in"
+     inkscape:window-maximized="1"
+     units="px"
      height="4in"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -78,7 +78,7 @@
        enabled="true"
        units="mm"
        originx="-109.92184"
-       originy="-59.892235" />
+       originy="-59.892233" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">

@@ -9,24 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="721.05103pt"
-   height="156.45953pt"
+   width="901.31378"
+   height="195.57442"
    id="svg2"
    sodipodi:version="0.32"
    inkscape:version="0.91 r"
-   sodipodi:docname="DisputedTerritory-Logo.svg"
+   sodipodi:docname="Logo.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.1">
   <defs
-     id="defs4">
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 526.18109 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="744.09448 : 526.18109 : 1"
-       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
-       id="perspective10" />
-  </defs>
+     id="defs4" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -38,20 +30,20 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.11313708"
-     inkscape:cx="1846.0335"
-     inkscape:cy="71.084433"
+     inkscape:cx="347.85094"
+     inkscape:cy="71.084429"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1229"
-     inkscape:window-height="698"
-     inkscape:window-x="231"
-     inkscape:window-y="62"
+     inkscape:window-width="1600"
+     inkscape:window-height="848"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      showborder="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-maximized="0"
-     units="pt"
+     inkscape:window-maximized="1"
+     units="px"
      height="3in"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -63,7 +55,7 @@
        visible="true"
        enabled="true"
        originx="-52.120462"
-       originy="-32.155747" />
+       originy="-32.155751" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
