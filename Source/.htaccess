@@ -1,0 +1,9 @@
+# Secure the directory and its children.
+AuthUserFile /fs3e/blueberryempire/public/Source/.htpasswd
+AuthName "Authentication required."
+AuthType Basic
+Require valid-user
+
+# Set environment variables for git.cgi.
+SetEnv GIT_PROJECT_ROOT .
+SetEnv GIT_HTTP_EXPORT_ALL
