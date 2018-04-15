@@ -20,7 +20,7 @@ linkHome.innerHTML =
 divHeader.appendChild(linkHome);
 
 var divLinks = d.createElement("div");
-var linkNames = [ "News", "Games", "Feedback", "Development", "About" ];
+var linkNames = [ "News", "Games", "Store", "Feedback", "Development", "About" ];
 for (var i = 0; i < linkNames.length; i++)
 {
 	var linkName = linkNames[i];
