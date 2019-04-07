@@ -17,6 +17,17 @@ a {
 }	
 
 button {
+
+	/* From https://stackoverflow.com/questions/1367409/how-to-make-button-look-like-a-link. */
+	background:none!important;
+	color:inherit;
+	border:none;
+	padding:0!important;
+	font: inherit;
+	/* border is optional */
+	border-bottom:2px solid White;
+	cursor: pointer;
+
 	background-color:DarkBlue;
 	color:White;
 	font-family:Highbush;
