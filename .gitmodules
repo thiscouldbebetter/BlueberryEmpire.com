@@ -1,0 +1,3 @@
+[submodule "Store/OnlineStore"]
+	path = Store/OnlineStore
+	url = https://github.com/BlueberryEmpire/OnlineStore
