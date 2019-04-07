@@ -16,6 +16,20 @@ a {
 	color:White;
 }	
 
+button {
+	background-color:DarkBlue;
+	color:White;
+	font-family:Highbush;
+}
+
+input {
+	font-family:Highbush;
+}
+
+pre {
+	font-family:Highbush;
+}
+
 .game-image-title {
 	margin: 16px;
 	width: 50%;
