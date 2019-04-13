@@ -41,6 +41,10 @@ pre {
 	font-family:Highbush;
 }
 
+select {
+	font-family:Highbush;
+}
+
 .game-image-title {
 	margin: 16px;
 	width: 50%;
