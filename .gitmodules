@@ -1,3 +1,3 @@
-[submodule "Store"]
-	path = Store
-	url = https://github.com/thiscouldbebetter/OnlineStore
+[submodule "Store/OnlineStore"]
+	path = Store/OnlineStore
+	url = https://github.com/BlueberryEmpire/OnlineStore
