@@ -9,7 +9,8 @@
 			}
 			th {
 				transform: rotate(90deg);
-				height: 150px;
+				height: 128px;
+				width: 32px;
 			}
 			th div {
 				width: 1px;
@@ -29,22 +30,22 @@ making.  Motivatation through shame!</p>
 
 <hr />
 
-		<table>
-			
+		<table style="text-align: center">
+
 			<thead>
 				<th>Name</th>
 				<th><div>Title&nbsp;Screen</div></th>
 				<th><div>Flavor&nbsp;Content</div></th>
 				<th><div>Source&nbsp;Repository</div></th>
 			</thead>
-			
+
 			<tbody id="tableBody">
 			</tbody>
-			
+
 		</table>
-		
+
 		<script type="text/javascript">
-			
+
 			function Title
 			(
 				name, 
@@ -58,23 +59,23 @@ making.  Motivatation through shame!</p>
 				this.hasFlavorContent = hasFlavorContent;
 				this.hasSourceRepository = hasSourceRepository;
 			}
-			{				
+			{
 				Title.prototype.toDOMElement = function()
 				{
 					var tr = document.createElement("tr");
-					
+
 					var fields = 
 					[
 						this.name,
-						this.hasTitleScreen,
-						this.hasFlavorContent,
-						this.hasSourceRepository,
+						(this.hasTitleScreen ? "*" : " "),
+						(this.hasFlavorContent ? "*" : " "),
+						(this.hasSourceRepository ? "*" : " "),
 					];
 
 					for (var i = 0; i < fields.length; i++)
 					{
 						var field = fields[i];
-						
+
 						var td = document.createElement("td");
 						td.innerHTML = field;
 						tr.appendChild(td);
@@ -83,23 +84,23 @@ making.  Motivatation through shame!</p>
 					return tr;
 				}
 			}
-			
+
 			var titles = 
 			[ 
-			 	// name						//title //flvr	//repo
+			 	// name									//title //flvr	//repo
 				new Title("Adductor Wing", 				true, 	true, 	false),
 				new Title("Advanced Laser Pragmatics", 	true, 	true, 	false),
-				new Title("Ascension Run", 				true, 	false, 	false),
+				new Title("Ascension Run", 				true, 	false, 	true),
 				new Title("Bad Day on the Bathysphere", true, 	false, 	true),
 				new Title("Bing-Bang and the Brickbats", true,	false, 	false),
 				new Title("Blast Shadow", 				true, 	false, 	false),
 				new Title("Chylde Norrick", 			true, 	false, 	false),
-				new Title("ConWijCo", 				true, 	false, 	false),
+				new Title("ConWijCo", 					true, 	false, 	false),
 				new Title("Dawnstar Station", 			true, 	true, 	false),
 				new Title("Disputed Territory", 		false, 	false, 	false),
 				new Title("Folddrive", 					false, 	false, 	false),
-				new Title("Freakybomb", 				false, 	true, 	false),
-				new Title("Fretwork of Starfire", 		false, 	false, 	false),	
+				new Title("Freakybomb", 				true, 	true, 	false),
+				new Title("Fretwork of Starfire", 		false, 	false, 	true),
 				new Title("Fwaboom", 					false, 	false, 	false),
 				new Title("Gnome Farm", 				false, 	false, 	false),
 				new Title("Halls of Aeolus", 			true, 	false, 	false),
@@ -111,27 +112,27 @@ making.  Motivatation through shame!</p>
 				new Title("Shillelagh", 				false, 	false, 	false),
 				new Title("Span of the Bow", 			false, 	false, 	false),
 				new Title("Starward Gyre",	 			false, 	false, 	false),
-				new Title("Tanglebox", 					false, 	false, 	false),
+				new Title("Tanglebox", 					false, 	false, 	true),
 				new Title("Thrones and Dominations",	false, 	false, 	false),
 				new Title("Tranquillitatis", 			true, 	false, 	false),
 				new Title("Transit of the Cosmotic", 	true, 	false, 	false),
-				new Title("Unlit", 						true, 	true, 	false),
-				new Title("William the Thundrous", 		true, 	false, 	false),	
-				new Title("Wyvern's Roost", 			false, 	false, 	false),	
-				new Title("Ye Ettin's Head", 			false, 	false, 	false),	
+				new Title("Unlit", 						true, 	true, 	true),
+				new Title("William the Thundrous", 		true, 	false, 	false),
+				new Title("Wyvern's Roost", 			false, 	false, 	false),
+				new Title("Ye Ettin's Head", 			false, 	false, 	false),
 			];
-			
+
 			var tableBody = document.getElementById("tableBody");
-			
+
 			for (var i = 0; i < titles.length; i++)
 			{
 				var title = titles[i];
 				var titleAsDOMElement = title.toDOMElement();
 				tableBody.appendChild(titleAsDOMElement);
 			}
-			
+
 		</script>
-				
+
 	</body>
 	
 </html>
